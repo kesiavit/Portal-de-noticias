@@ -1,0 +1,53 @@
+header {
+    display: grid;
+}
+
+.nav-primary {
+    margin: 20px 32px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.busca {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: end;
+}
+
+h1 {
+    color: var(--brand-color-light);
+    font: var(--text-xxg);
+    place-self: center;
+}
+
+h2 {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+.nav-secundary {
+    padding: 14px 32px;
+    font: var(--text-md);
+    border: solid 1px var(--stroke-color);
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: space-between;
+
+}
+
+a {
+    text-decoration: none;
+    color: var(--text-color-secondary);
+}
+
+a:hover {
+    color: var(--brand-color-light);
+}
+
