@@ -27,7 +27,7 @@ h1 {
     place-self: center;
 }
 
-h2 {
+.font-h2 {
     font: var(--text-lg);
     color: var(--text-color-primary);
 }

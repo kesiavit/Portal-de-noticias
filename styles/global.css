@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
     font-family: var(--font-family);
+}
+
+body {
     background-color: var(--bg-color);
 }
 
@@ -42,5 +45,17 @@ img {
 
 main {
     margin-top: 40px;
+    margin-inline: 32px;
+}
+
+.content-tag {
+    display: inline-block;
+    background-color: var(--brand-color-dark);
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: var(--text-color-primary);
+    font: 500 10px/1.2 var(--font-family);
+    letter-spacing: 0.04em;
+    box-shadow: 0px 4px 16px rgba(2, 6, 23, 0.25);
 }
 

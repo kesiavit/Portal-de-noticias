@@ -18,3 +18,23 @@
 .gap-16 {
     gap: 16px;
 }
+
+.text-2xl {
+    font: var(--text-xxg);
+    color: var(--text-color-primary);
+}
+
+.text-xl {
+    font: var(--text-xg);
+    color: var(--text-color-primary);
+}
+
+.text-lg {
+    font: var(--text-lg);
+    color: var(--text-color-primary);
+}
+
+.text-sm {
+    font: var(--font-md);
+    color: var(--text-color-primary);
+}
