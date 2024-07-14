@@ -46,6 +46,7 @@ img {
 main {
     margin-top: 40px;
     margin-inline: 32px;
+    gap: 80px;
 }
 
 .content-tag {

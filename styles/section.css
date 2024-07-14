@@ -1,3 +1,25 @@
+section {
+    header {
+        color: var(--text-color-secondary);
+        border-top: 1px solid var(--stroke-color);
+        padding-block: 12px 24px;
+        font: var(--text-md);
+
+        a{
+            justify-self: end;
+            align-items: center;
+            gap: 8px;
+    
+            span {
+                background-image: url(../Assets/icones/ArrowRight.svg);
+                width: 16px;
+                height: 16px;
+            }
+        }
+
+    }
+}
+
 #featured {
     img {
         height: 100%;
@@ -35,6 +57,35 @@
 
         h2 {
             margin-top: 8px;
+        }
+    }
+}
+
+#weekly {
+    margin-top: 80px;
+
+
+    &>div {
+        grid-template-columns: repeat(4, 292px);
+    }
+
+    img {
+        height: 160px;
+    }
+
+    figure {
+        position: relative;
+
+        .content-tag {
+            position: absolute;
+            top: 8px;
+            left: 8px;
+        }
+        
+        p {
+            margin-top: 8px;
+            color: var(--text-color-primary);
+            font: var(--text-lg);
         }
     }
 }
